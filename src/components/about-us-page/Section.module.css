@@ -1,0 +1,89 @@
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.informationContainer {
+    position: relative;
+    z-index: 1;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.361);
+    /* opacity: 0.55; */
+    margin-left: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+.mainContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+}
+
+.mainText{
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+}
+
+.mainParagraph{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.companyLogo{
+    width: 120px;
+}
+
+
+.button {
+    background-color: rgb(23, 139, 23);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: 700;
+    border: none;
+  }
+
+@media (max-width: 768px) {
+    .informationContainer {
+        padding: 10px;
+        width: auto;
+        height: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        max-width: 800px;
+    
+    }
+
+    .mainText{
+        font-size: 35px;
+        color: black;
+        font-weight: 800;
+    }
+    
+    .mainParagraph{
+        font-size: 17px;
+        color: black;
+        font-weight: 500;
+        
+    }
+    .companyLogo{
+        width: 60px;
+    }
+}

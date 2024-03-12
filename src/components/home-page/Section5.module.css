@@ -1,0 +1,57 @@
+.mainContainer {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding: 30px;
+    background-color: #0e1012;
+    color: white;
+    margin-top: -20px
+}
+
+.contentContainer {
+    width: 95%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    background-color: #161A1D;
+    border-radius: 7px;
+}
+
+
+.innerContainer {
+    text-align: center;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    gap: 30px;
+    display: flex;
+}
+
+
+.button {
+    background-color: rgb(23, 139, 23);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: 700;
+    border: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 30px;
+    }
+}

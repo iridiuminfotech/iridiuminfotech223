@@ -1,0 +1,61 @@
+/* Footer.module.css */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(14, 16, 18);
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+
+  .contentContainer{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contentContainer2{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .horizontalList {
+    display: flex; /* Use flexbox */
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between; /* Distribute items equally along the main axis */
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+
+
+  .horizontalList  li {
+    flex: 1; /* Equal width for each item */
+}
+
+
+
+  
+  @media (max-width: 768px) {
+    .container {
+      border-top: 0.1px solid white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: #fff;
+        padding: 20px;
+        justify-content: center;
+      }
+  
+  }
+  

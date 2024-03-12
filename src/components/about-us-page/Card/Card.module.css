@@ -1,0 +1,35 @@
+.mainContainer {
+    width: 350px;
+    height: 350px;
+    gap: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainContainer img {
+    width: 100%; /* This makes the image width 100% of its parent's width (300px) */
+}
+
+.paragraph{
+    color: rgb(23, 139, 23);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: rgb(23, 139, 23); /* Change this to your desired color */
+}
+
+
+
+
+@media (max-width: 768px) {
+    .mainContainer {
+        width: auto;
+        height: auto;
+    }
+} 

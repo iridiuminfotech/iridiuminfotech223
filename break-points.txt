@@ -1,0 +1,29 @@
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+
+
+@media (max-width: 480px) {
+    .mainText{
+        font-size:35px;
+        
+    }
+    .infoText{
+        padding-left: 4px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .informationContainer {
+        padding: 10px;
+        width: auto;
+        height: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        max-width: 800px;
+    
+    }

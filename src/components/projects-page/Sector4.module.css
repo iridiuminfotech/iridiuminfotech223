@@ -1,0 +1,41 @@
+.mainContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 100%;
+}
+
+.informationContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBox{
+    width: 1280px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    max-width: 1280px;
+}
+
+
+@media (max-width: 768px) {
+    .informationContainer{
+     padding: 10px;
+    }
+    
+    .divBox{
+        width: auto;
+        padding: 10px;
+        border-bottom: 2px solid black;
+        max-width: 1280px;
+    }
+}

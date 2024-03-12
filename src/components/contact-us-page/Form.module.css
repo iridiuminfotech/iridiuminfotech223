@@ -1,0 +1,94 @@
+
+
+.outerContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the background image is behind the content */
+    opacity: 0.72; /* Adjust opacity as needed */
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+.innerContainer{
+    
+    width:400px;
+    height: max-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.mainText{
+    font-size:50px;
+    
+}
+
+
+.informationContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.infoText{
+    padding-left: 4px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/* @media (30em <= width <= 50em) {
+    /* … */
+/* } */ 
+/* 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media (max-width: 480px) {
+    .mainText{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .outerContainer{
+        height: auto;
+        justify-content: center;
+        align-items: self-start;
+   
+    }
+
+    .innerContainer{
+        margin-top: 70px;
+    }
+
+    .informationContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .mainText{
+        font-size:35px;
+        
+    }
+    .infoText{
+        padding-left: 4px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
